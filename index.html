@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>KohliServices-Home</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -104,7 +104,7 @@
                     <h4 class="my-3">Email Marketing</h4>
                     <p class="text-muted">Email marketing is the act of sending a commercial message, typically to a
                         group of people, using email.</p>
-                    <a href="#explore" style="padding: 10px;">
+                    <a href="#sms" style="padding: 10px;">
                         <h6>Know more <i class="fa fa-arrow-right" aria-hidden="true"></i></h6>
                     </a>
                 </div>
@@ -117,7 +117,7 @@
                     <h4 class="my-3">IVR System</h4>
                     <p class="text-muted">Interactive voice response (IVR) is a technology that allows humans to
                         interact with a computer-operated phone system.</p>
-                    <a href="#explore" style="padding: 10px;">
+                    <a href="#email" style="padding: 10px;">
                         <h6>Know more <i class="fa fa-arrow-right" aria-hidden="true"></i></h6>
                     </a>
                 </div>
@@ -134,7 +134,7 @@
                     <h4 class="my-3">Missed Call System</h4>
                     <p class="text-muted">Missed Call service allows you to connect with your user base and get their
                         contact details.</p>
-                    <a href="#explore" style="padding: 10px;">
+                    <a href="#ivr" style="padding: 10px;">
                         <h6>Know more <i class="fa fa-arrow-right" aria-hidden="true"></i></h6>
                     </a>
                 </div>
@@ -147,7 +147,7 @@
                     <h4 class="my-3">Social Media Marketing</h4>
                     <p class="text-muted">Social media marketing (SMM) is the use of social media websites & networks.
                     </p>
-                    <a href="#explore" style="padding: 10px;">
+                    <a href="#missed" style="padding: 10px;">
                         <h6>Know more <i class="fa fa-arrow-right" aria-hidden="true"></i></h6>
                     </a>
                 </div>
@@ -159,7 +159,7 @@
                     </span>
                     <h4 class="my-3">QR Code Generator</h4>
                     <p class="text-muted">A QR code generator is a software which stores data into a QR code.</p>
-                    <a href="#explore" style="padding: 10px;">
+                    <a href="#socialmedia" style="padding: 10px;">
                         <h6>Know more <i class="fa fa-arrow-right" aria-hidden="true"></i></h6>
                     </a>
                 </div>
@@ -177,12 +177,12 @@
                 <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
                             alt="" /></div>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" id="sms">
                         <div class="timeline-heading">
                             <h4>SMS</h4>
                             <h4 class="subheading">Marketing</h4>
                         </div>
-                        <div class="timeline-body">
+                        <div class="timeline-body" id = "social">
                             <p class="text-muted">SMS marketing is a simple and effective way to increase customer
                                 loyality or drive demand. With our SMS marketing service, your business is able to
                                 contact thousands of customers around the globe.</p>
@@ -205,23 +205,34 @@
                 <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
                             alt="" /></div>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" id="email">
                         <div class="timeline-heading">
                             <h4>Email</h4>
                             <h4 class="subheading">Marketing</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">Our Email Marketing tool is the most advanced, robyst, reliable and cost-effective. Our main goal is to help you send fewer emails with better results.</p>
+                            <ul style="list-style: none;">
+                                <h5>Our Features</h5>
+                                <li>Email templates + editor</li>
+                                <li>Autoresponders/automation</li>
+                                <li>Registration forms</li>
+                                <li>Reporting</li>
+                                <li>Storage for emails and files</li>
+                                <li>Unlimited contacts</li>
+                                <li>Send Time Optimization</li>
+                            </ul>
                         </div>
+                        <a href="#explore" style="padding: 10px;">
+                            <h6>Login <i class="fa fa-user-plus" aria-hidden="true"></i></h6>
+                        </a>
                     </div>
                 </li>
                 <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
                             alt="" /></div>
                     <div class="timeline-panel">
-                        <div class="timeline-heading">
+                        <div class="timeline-heading" id="ivr">
                             <h4>IVR</h4>
                             <h4 class="subheading">System</h4>
                         </div>
@@ -236,7 +247,7 @@
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
                             alt="" /></div>
                     <div class="timeline-panel">
-                        <div class="timeline-heading">
+                        <div class="timeline-heading" id="missedcall">
                             <h4>Missed</h4>
                             <h4 class="subheading">Call System</h4>
                         </div>
@@ -251,7 +262,7 @@
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
                             alt="" /></div>
                     <div class="timeline-panel">
-                        <div class="timeline-heading">
+                        <div class="timeline-heading" id="socialmedia">
                             <h4>Social</h4>
                             <h4 class="subheading">Media Marketing</h4>
                         </div>
@@ -263,10 +274,10 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/6.jpg " style="height: 99%; width: 100%;"
                             alt="" /></div>
                     <div class="timeline-panel">
-                        <div class="timeline-heading">
+                        <div class="timeline-heading" id="qrcode">
                             <h4>QR</h4>
                             <h4 class="subheading">Code Generator</h4>
                         </div>
